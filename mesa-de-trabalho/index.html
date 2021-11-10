@@ -5,8 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mesa de trabalho</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
     <style type="text/css">
         /* Coloque o código fonte da atividade aqui */
+        .plano{
+            margin: 200px auto;
+            width: 100px;
+        }
+        .botao{
+            font-family: Montserrat, sans-serif;
+            font-weight: 700;
+            background-color:rgba(179, 196, 25, 0.774);
+            border-radius: 10px;
+            border: none;
+            width: 130px;
+            height: 25px;
+            color: white;
+            
+        }
+        .plano__sessao{
+            background-color: rgba(128, 128, 128, 0.11);
+            border: 3px solid gray;
+            border-radius: 15px 15px 0px 0px;
+            width: 220px;
+            height: 170px;
+            text-align: center;
+            
+
+        }
+        .preco__valor{
+            font-family: Montserrat, sans-serif;
+            font-weight: 700;
+            color:rgba(0, 80, 141, 66);
+            font-size: 70px
+
+        }
+        .preco{
+            margin-bottom: 0px;
+            height: 80px
+        }
+        .preco__cambio{
+            font-family: Montserrat, sans-serif;
+            font-weight: 700;
+            text-align: top;
+            position: relative;
+            bottom: 40px;
+            color:gray;
+            
+        }
+        .preco__moeda{
+            font-family: Montserrat, sans-serif;
+            font-weight:700;
+            color:rgba(0, 80, 141, 66);
+            font-size: 22px;
+            text-align: top;
+            position: relative;
+            bottom: 40px
+            
+        }
+        .preco__total{
+            font-family: Montserrat, sans-serif;
+            font-weight: 400;
+            font-weight: bold;
+            font-size: 13px;
+            text-align: top;
+            margin-top: 0px;
+            color:gray;
+        }
+        .lista{
+            background-color: rgba(128, 128, 128, 0.11);
+            border: 3px solid gray;
+            border-radius: 0px 0px 15px 15px;
+            width: 220px;
+            height: 370px;
+            text-align: center;
+            list-style: none;
+            padding: 0px;
+            font-family: Montserrat, sans-serif;
+            font-weight: 400;
+            line-height: 60px;
+            margin-top:0px;
+            border-top: none;
+            padding-top: 25px;
+            color:gray;
+        }
+        .lista__item{
+            height:50px
+
+        }
 
     </style>
 </head>
@@ -20,9 +108,9 @@
                 <span class="preco__moeda">,39</span>
             </p>
             <p class="preco__total">Valor anual: R$ 5.465,09</p>
-            <button class="botao">Comprar</button>
+            <button class="botao">COMPRAR</button>
         </div>
-        <ul class="lista">
+        <ul class="lista" type="">
             <li class="lista__item">
                 <img src="./imagens/checked.png" alt="Ícone verifado verde">
             </li>
